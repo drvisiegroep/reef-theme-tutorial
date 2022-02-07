@@ -39,7 +39,8 @@ Dan ga je naar Weergave > Thema bestand editor en ga je daar even door de mapjes
 
 css, js, custom, inc, php, svg, assets, themafuncties. Er vliegen je nogal wat termen om de oren. Maar hoe een thema onder de motorkap nou eigenlijk werkt is van latere zorg. We gaan eerst eens kijken naar onze css. In tegenstelling tot wat je misschien zou denken zit de css niet verstopt in style.css. Dat komt omdat we er voor hebben gekozen om onze css op een vaste plek te houden, samen met onze javascript, plaatjes en ander spul. De style.css wordt in een child thema gebruikt om onder andere aan te geven hoe je thema heet. Dan weet Wordpress ook waar 'ie aan toe is.
 
-Leuk? - https://developer.wordpress.org/themes/advanced-topics/child-themes/
+Leuk?
+https://developer.wordpress.org/themes/advanced-topics/child-themes/
 
 ![image](https://user-images.githubusercontent.com/78969608/152845414-40c2ee24-73e5-4746-8b5b-04f3e215a92c.png)
 
@@ -58,13 +59,26 @@ Je child.css zal er ongeveer zo uit zien. Dit wordt regelmatig aangepast dus er 
 
 Variabelen dus. Maar wat zijn dat nou? Variabelen gebruik je om een naam te geven aan een bepaalde waarde zodat je die steeds opnieuw kan gebruiken.
 
-Leuk? - https://css-tricks.com/a-complete-guide-to-custom-properties/
+Leuk?
+https://css-tricks.com/a-complete-guide-to-custom-properties/
+https://www.youtube.com/watch?v=PHO6TBq_auI
 
 ![image](https://user-images.githubusercontent.com/78969608/152847337-aabd304c-86e7-4645-bac9-0187409d1577.png)
 
 In onze css staat bijvoorbeeld --primaryColor:blue; Dit betekent dat als ik de variabele --primaryColor ergens in mijn css opnieuw gebruik hij de waarde blue zal hebben. Als we al onze h2 tags een blauwe kleur willen geven dan kunnen we dan kunnen we dat doen door ```h2 {color: var(--primaryColor)}``` in onze css te zetten. En als we de achtergrond van onze footer blauw willen maken kunnen we bijvoorbeeld zeggen ```.site-footer {background-color: var(--primaryColor);}``` Nu is onze footer blauw en al onze h2 tags ook. Maar stel we willen eigenlijk geen blauw maar oranje. In plaats van al onze css aan te moeten passen passen we alleen de waarde van onze variabele aan. Als we ```--primaryColor:blue;``` veranderen naar ```--primaryColor:orange;``` veranderen al onze h2 tags en de footer naar oranje. Op deze manier kan je dus heel handig meerdere dingen aanpassen op 1 vaste plek.
 
 Dit kan je voor allerlei waardes doen die je normaal ook in de css gebruikt. Om het helemaal spannend te maken kan je zelfs variabelen als waardes voor variabelen gebruiken.
+Voor de rest plaats je in je child css gewoon alles wat je in een normaal css bestand zou plaatsen. Maar aangezien het hoofdthema al wat van het zware werk doet kunnen we ons wat meer gaan focussen op kleuren veranderen of specifieke maatwerk styling.
+
+Leuk?
+https://css-tricks.com/specifics-on-css-specificity/
+https://www.youtube.com/watch?v=CHyPGSpIhSs
+
+# LES 3
+## De editor
+
+
+
 
 
 
