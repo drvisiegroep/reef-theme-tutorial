@@ -9,6 +9,7 @@ Disclaimers:
 > -Ook al ben ik geboren en getogen in Nederland, ik ben geen begenadigd schrijver. Dus assik so wil sgrijven dan doe 'k dat guwoon.   
 > -De links met informatie zijn alleen bedoeld om extra handvaten te geven. Je hoeft ze niet allemaal door te lezen als je dat niet wil en soms is de stof ook nog wat aan de vergevorderde kant.   
 > -Joe ken spiek Inglishj. Als je in de IT wil slagen zul je Engels moeten kunnen. Bijna alle informatie is in het Engels.   
+> -Dit is geen fantastisch doordacht goed gestructureerd lesmateriaal. Dit is gewoon lekker prutsen.
 
 Hoi! Leuk dat je het thema uitprobeert. We gaan samen in kleine stapjes proberen het thema iets aan te passen zodat je een beetje inzicht krijgt hoe een wordpress thema een beetje werkt. Het reef-theme bestaat uit een parent en een child. Er is genoeg informatie te vinden over hoe je zelf een child thema aanmaakt en aangezien er al een voor je is geïnstalleerd behandelen we dat op het moment niet.
 
