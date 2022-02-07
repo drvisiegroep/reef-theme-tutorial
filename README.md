@@ -2,13 +2,13 @@
 
 # reef-theme-tutorial
 
-Disclaimers:
-(Ik ga er van uit dat je al eens in de wordpress editor bent bezig geweest om gütenberg blokjes in mekaar te klikken.)
-(Deze tutorial gaat ervan uit dat je het thema al klaar hebt staan en je er zo in kan duiken.)
-(Aangezien het thema vol in de ontwikkelfase zit kan het zijn dat hier en daar dingen wat afwijken, maar de basis blijft ongeveer hetzelfde)
-(Ook al ben ik geboren en getogen in Nederland, ik ben geen begenadigd schrijver. Dus assik so wil sgrijven dan doe 'k dat guwoon.)
-(De links met informatie zijn alleen bedoeld om extra handvaten te geven. Je hoeft ze niet allemaal door te lezen als je dat niet wil en soms is de stof ook nog wat aan de vergevorderde kant.)
-(Joe ken spiek Inglishj. Als je in de IT wil slagen zul je Engels moeten kunnen. Bijna alle informatie is in het Engels.)
+Disclaimers:   
+> -Ik ga er van uit dat je al eens in de wordpress editor bent bezig geweest om gütenberg blokjes in mekaar te klikken.   
+> -Deze tutorial gaat ervan uit dat je het thema al klaar hebt staan en je er zo in kan duiken.   
+> -Aangezien het thema vol in de ontwikkelfase zit kan het zijn dat hier en daar dingen wat afwijken, maar de basis blijft ongeveer hetzelfde   
+> -Ook al ben ik geboren en getogen in Nederland, ik ben geen begenadigd schrijver. Dus assik so wil sgrijven dan doe 'k dat guwoon.   
+> -De links met informatie zijn alleen bedoeld om extra handvaten te geven. Je hoeft ze niet allemaal door te lezen als je dat niet wil en soms is de stof ook nog wat aan de vergevorderde kant.   
+> -Joe ken spiek Inglishj. Als je in de IT wil slagen zul je Engels moeten kunnen. Bijna alle informatie is in het Engels.   
 
 Hoi! Leuk dat je het thema uitprobeert. We gaan samen in kleine stapjes proberen het thema iets aan te passen zodat je een beetje inzicht krijgt hoe een wordpress thema een beetje werkt. Het reef-theme bestaat uit een parent en een child. Er is genoeg informatie te vinden over hoe je zelf een child thema aanmaakt en aangezien er al een voor je is geïnstalleerd behandelen we dat op het moment niet.
 
@@ -61,7 +61,7 @@ Leuk? - https://css-tricks.com/a-complete-guide-to-custom-properties/
 
 ![image](https://user-images.githubusercontent.com/78969608/152847337-aabd304c-86e7-4645-bac9-0187409d1577.png)
 
-In onze css staat bijvoorbeeld --primaryColor:blue; Dit betekent dat als ik de variabele --primaryColor ergens in mijn css opnieuw gebruik hij de waarde blue zal hebben. Als we al onze h2 tags een blauwe kleur willen geven dan kunnen we dan kunnen we dat doen door h2 {color: var(--primaryColor)} in onze css te zetten. En als we de achtergrond van onze footer blauw willen maken kunnen we bijvoorbeeld zeggen .site-footer {background-color: var(--primaryColor);} Nu is onze footer blauw en al onze h2 tags ook. Maar stel we willen eigenlijk geen blauw maar oranje. In plaats van al onze css aan te moeten passen passen we alleen de waarde van onze variabele aan. Als we --primaryColor:blue; veranderen naar --primaryColor:orange; veranderen al onze h2 tags en de footer naar oranje. Op deze manier kan je dus heel handig meerdere dingen aanpassen op 1 vaste plek.
+In onze css staat bijvoorbeeld --primaryColor:blue; Dit betekent dat als ik de variabele --primaryColor ergens in mijn css opnieuw gebruik hij de waarde blue zal hebben. Als we al onze h2 tags een blauwe kleur willen geven dan kunnen we dan kunnen we dat doen door ```h2 {color: var(--primaryColor)}``` in onze css te zetten. En als we de achtergrond van onze footer blauw willen maken kunnen we bijvoorbeeld zeggen ```.site-footer {background-color: var(--primaryColor);}``` Nu is onze footer blauw en al onze h2 tags ook. Maar stel we willen eigenlijk geen blauw maar oranje. In plaats van al onze css aan te moeten passen passen we alleen de waarde van onze variabele aan. Als we ```--primaryColor:blue;``` veranderen naar ```--primaryColor:orange;``` veranderen al onze h2 tags en de footer naar oranje. Op deze manier kan je dus heel handig meerdere dingen aanpassen op 1 vaste plek.
 
 Dit kan je voor allerlei waardes doen die je normaal ook in de css gebruikt. Om het helemaal spannend te maken kan je zelfs variabelen als waardes voor variabelen gebruiken.
 
